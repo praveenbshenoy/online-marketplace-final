@@ -1,0 +1,85 @@
+The online-marketplace-final project along with the related contracts have been 
+deployed on the 'Rinkeby' testnet per the following details and deployed
+addresses.
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 6997170
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x54f1e09f1eadfd3291fa4b661c32664233646f2c4d6c3f072ae0c2bbf90d20b4
+   > Blocks: 1            Seconds: 18
+   > contract address:    0xd7C494f8D6fb0d43368ddd5AF45596FaEa58aDF2
+   > account:             0x9dCb7484e630FD6c0619D2DB6bAB164DF4572255
+   > balance:             18.74430184
+   > gas used:            284908
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00569816 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00569816 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Ownable'
+   -------------------
+   > transaction hash:    0x0206476b0e8596f8d93d4fdd5131263bb57034aeeded9098b2edc09f5ec710b7
+   > Blocks: 0            Seconds: 6
+   > contract address:    0xfDe85F50B67f7F77695AC53C6b6c31aE8F7Ce4AC
+   > account:             0x9dCb7484e630FD6c0619D2DB6bAB164DF4572255
+   > balance:             18.73905278
+   > gas used:            220419
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00440838 ETH
+
+
+   Deploying 'Killable'
+   --------------------
+   > transaction hash:    0xd329c3514124972848cd3ecdb1aeddf1162aa46295ebc5471c27a57e151237b5
+   > Blocks: 1            Seconds: 22
+   > contract address:    0x31234d5a1a0a059d4ad2cd74f4C1C3230B4A1286
+   > account:             0x9dCb7484e630FD6c0619D2DB6bAB164DF4572255
+   > balance:             18.73370878
+   > gas used:            267200
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.005344 ETH
+
+
+   Deploying 'Marketplace'
+   -----------------------
+   > transaction hash:    0xedb4b3dfe583869d0759b1c35f1262b486dca1b4d63d0138275cd735511e1754
+   > Blocks: 2            Seconds: 22
+   > contract address:    0x76421b51bcB95c0743B9Ba1CFA5878Be327E4423
+   > account:             0x9dCb7484e630FD6c0619D2DB6bAB164DF4572255
+   > balance:             18.68366698
+   > gas used:            2502090
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0500418 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.05979418 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.06549234 ETH
