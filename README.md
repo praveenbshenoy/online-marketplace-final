@@ -36,7 +36,7 @@ https://truffleframework.com/boxes as the starting point for this project
 
     Note: 1. If browser does not load, please launch broswer manually and type  
     in url http://localhost:3000
-    Note: 2. I have used google Chrome browser extesively for this. So my
+    Note: 2. I have used google Chrome browser extensively for this. So my
     instructions are based on Chrome
 
 
